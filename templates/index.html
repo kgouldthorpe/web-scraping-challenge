@@ -20,20 +20,20 @@
         </div>
     </div>
     <div class="container-fluid">
-        <h2>{{mars_facts_data.mars_news_headline}}</h2>
-        <p>{{mars_facts_data.mars_news_teaser}}</p>
+        <h2>{{ mars_facts_data.mars_news_headline }}</h2>
+        <p>{{ mars_facts_data.mars_news_teaser }}</p>
     </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-7">
                 <h3>Featured Image</h3>
-                <img src="{{mars_facts_data.featured_image_url}}" alt="Mars Featured Image" style="width: 75%;">
+                <img src="{{ mars_facts_data.featured_image_url }}" alt="Mars Featured Image" style="width: 75%;">
             </div>  
             <div class="col-md-5">
                 <ul>
                     <h3>Current Mars Weather</h3>
                     <h4>Pulled from Mars Weather Twitter</h4>
-                    <p>{{mars_facts_data.mars_weather}}</p>
+                    <p>{{ mars_facts_data.mars_weather }}</p>
                 </ul>
             </div>
             <div class="col-md-5">
@@ -86,29 +86,29 @@
         <div class="body">
         <div class="row">
             <div class="col-md-6">
-                <img src="{{mars_facts_data.hemisphere_schiaparelli['Image URL']}}" alt="Schiaparelli Hemisphere" style="width:50%;">
+                <img src="{{ mars_facts_data.hemisphere_schiaparelli['Image URL'] }}" alt="Schiaparelli Hemisphere" style="width:50%;">
                 <div class="caption"style="font-weight: bold;">
-                    {{mars_facts_data.hemisphere_schiaparelli['Title']}}
+                    {{ mars_facts_data.hemisphere_schiaparelli['Title'] }}
                 </div>                                           
             </div>
             <div class="col-md-6">
-                <img src="{{mars_facts_data.hemisphere_cerberus['Image URL']}}" alt="Cerberus Hemisphere" style="width:50%;">
+                <img src="{{ mars_facts_data.hemisphere_cerberus['Image URL'] }}" alt="Cerberus Hemisphere" style="width:50%;">
                 <div class="caption" style="font-weight: bold;">
-                    {{mars_facts_data.hemisphere_cerberus['Title']}}
+                    {{ mars_facts_data.hemisphere_cerberus['Title'] }}
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
-                <img src="{{mars_facts_data.hemisphere_syrtis['Image URL']}}" alt="Syrtis Hemisphere" style="width:50%;">
+                <img src="{{ mars_facts_data.hemisphere_syrtis['Image URL'] }}" alt="Syrtis Hemisphere" style="width:50%;">
                 <div class="caption"style="font-weight: bold;">
-                    {{mars_facts_data.hemisphere_syrtis['Title']}}
+                    {{ mars_facts_data.hemisphere_syrtis['Title'] }}
                 </div>                                           
             </div>
             <div class="col-md-6">
-                <img src="{{mars_facts_data.hemisphere_valle['Image URL']}}" alt="Valles Marineris Hemisphere" style="width:50%;">
+                <img src="{{ mars_facts_data.hemisphere_valle['Image URL'] }}" alt="Valles Marineris Hemisphere" style="width:50%;">
                 <div class="caption" style="font-weight: bold;">
-                    {{mars_facts_data.hemisphere_valle['Title']}}
+                    {{ mars_facts_data.hemisphere_valle['Title'] }}
                 </div>
             </div>
         </div>  
